@@ -1,0 +1,27 @@
+.header {
+  background-color: $header-bg;
+  color: $header-color;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: $site-max-width;
+  padding: $space;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header__title--text {
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: 1rem;
+  margin: 0;
+}
